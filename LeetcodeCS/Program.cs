@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            SolutionInorderTraversal.Run();
+            //SolutionInorderTraversal.Run();
+            SolutionPreorderTraversal.Run();
         }
     }
 }

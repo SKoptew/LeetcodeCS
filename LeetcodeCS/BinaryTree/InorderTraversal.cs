@@ -49,7 +49,5 @@ public class SolutionInorderTraversal
         var input = new TreeNode(1){right = new TreeNode(2){left=new TreeNode(3)}};
 
         var output = InorderTraversal(input);
-
-        int f = 2;
     }
 }
