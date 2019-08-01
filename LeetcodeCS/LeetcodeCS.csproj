@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinaryTree\InorderTraversal.cs" />
+    <Compile Include="BinaryTree\PostorderTraversal.cs" />
     <Compile Include="BinaryTree\PreorderTraversal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
