@@ -1,4 +1,6 @@
-﻿namespace LeetcodeCS
+﻿using LeetcodeCS.BinaryTree;
+
+namespace LeetcodeCS
 {
     class Program
     {
@@ -6,7 +8,8 @@
         {
             //SolutionInorderTraversal.Run();
             //SolutionPreorderTraversal.Run();
-            SolutionPostorderTraversal.Run();
+            //SolutionPostorderTraversal.Run();
+            SolutionLevelOrderTraversal.Run();
         }
     }
 }
