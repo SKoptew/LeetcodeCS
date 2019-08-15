@@ -4,9 +4,37 @@ namespace LeetcodeCS.BinaryTree
 {
     class SolutionLevelOrderTraversal
     {
-        public static List<List<int>> LevelOrderTraversal(TreeNode root)
+        // List< int[] > - supports interface of IList<IList<int>>, list of arrays
+
+        public static IList<IList<int>> LevelOrderTraversal(TreeNode root)
         {
-            var result = new List<List<int>>();
+            var result = new List<IList<int>>();
+
+            var queue = new Queue<TreeNode>();
+
+            if (root != null)
+                queue.Enqueue(root);
+
+            while (queue.Count != 0)
+            {
+                var levelSize = queue.Count;
+                var level = new int[levelSize];
+
+                for (int i = 0; i < levelSize; ++i)
+                {
+                    var node = queue.Dequeue();
+                    
+                    if (node.left != null)
+                        queue.Enqueue(node.left);
+
+                    if (node.right != null)
+                        queue.Enqueue(node.right);
+
+                    level[i] = node.val;
+                }
+
+                result.Add(level);
+            }
 
             return result;
         }
