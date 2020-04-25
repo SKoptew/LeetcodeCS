@@ -9,7 +9,8 @@ namespace LeetcodeCS
             //SolutionInorderTraversal.Run();
             //SolutionPreorderTraversal.Run();
             //SolutionPostorderTraversal.Run();
-            SolutionLevelOrderTraversal.Run();
+            //SolutionLevelOrderTraversal.Run();
+            MaxDepthOfBTree.Run();
         }
     }
 }

@@ -2,15 +2,6 @@
 
 namespace LeetcodeCS.BinaryTree
 {
-    public class TreeNode
-    {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-
-        public TreeNode(int x) { val = x; }
-    }
-
     public class SolutionInorderTraversal
     {
         public static IList<int> InorderTraversal(TreeNode root)
