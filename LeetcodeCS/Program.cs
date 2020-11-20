@@ -12,7 +12,8 @@ namespace LeetcodeCS
             //SolutionLevelOrderTraversal.Run();
             //MaxDepthOfBTree.Run();
             //SymmetricTree.Run();
-            PathSum.Run();
+            //PathSum.Run();
+            ReconstructFromInorderAndPostorder.Run();
         }
     }
 }
