@@ -13,7 +13,8 @@ namespace LeetcodeCS
             //MaxDepthOfBTree.Run();
             //SymmetricTree.Run();
             //PathSum.Run();
-            ReconstructFromInorderAndPostorder.Run();
+            //ReconstructFromInorderAndPostorder.Run();
+            PopulatingNextRightPointers.Run();
         }
     }
 }

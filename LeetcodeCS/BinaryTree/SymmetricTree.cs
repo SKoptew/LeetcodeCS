@@ -7,7 +7,7 @@ namespace LeetcodeCS.BinaryTree
         public static bool IsSymmetric(TreeNode root)
         {
             if (root == null)
-                return true; // dunno why, so it it leetcode correct answer
+                return true; // dunno why, so it is leetcode correct answer
 
             return TraverseSymmetric(root.left, root.right);
         }

@@ -46,7 +46,9 @@
     <Compile Include="BinaryTree\InorderTraversal.cs" />
     <Compile Include="BinaryTree\LevelOrderTraversal.cs" />
     <Compile Include="BinaryTree\MaxDepthOfBTree.cs" />
+    <Compile Include="BinaryTree\Node.cs" />
     <Compile Include="BinaryTree\PathSum.cs" />
+    <Compile Include="BinaryTree\PopulatingNextRightPointers.cs" />
     <Compile Include="BinaryTree\PostorderTraversal.cs" />
     <Compile Include="BinaryTree\PreorderTraversal.cs" />
     <Compile Include="BinaryTree\ReconstructFromInorderAndPostorder.cs" />
