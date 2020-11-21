@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="BinaryTree\InorderTraversal.cs" />
     <Compile Include="BinaryTree\LevelOrderTraversal.cs" />
+    <Compile Include="BinaryTree\LowestCommonAncestor.cs" />
     <Compile Include="BinaryTree\MaxDepthOfBTree.cs" />
     <Compile Include="BinaryTree\Node.cs" />
     <Compile Include="BinaryTree\PathSum.cs" />

@@ -14,7 +14,8 @@ namespace LeetcodeCS
             //SymmetricTree.Run();
             //PathSum.Run();
             //ReconstructFromInorderAndPostorder.Run();
-            PopulatingNextRightPointers.Run();
+            //PopulatingNextRightPointers.Run();
+            LowestCommonAncestor.Run();
         }
     }
 }
